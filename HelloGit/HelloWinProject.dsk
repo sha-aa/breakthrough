@@ -11,35 +11,38 @@ File_8=SourceModule,'J:\Work\ACS\SVN\libs\asu5\src\DStreams\ShmStream\ShmServerS
 File_9=SourceModule,'J:\Work\ACS\SVN\libs\asu5\src\Savefile\Savefile.cpp',0,1,1,31,25,0,0
 
 [Modules]
-Module0=J:\Work\Prog\2017\HelloGit\Unit1.cpp
-Count=1
+Module0=J:\Work\Prog\GitProjects\HelloGit\Unit1.cpp
+Module1=J:\Work\Prog\GitProjects\HelloGit\HelloWinProject.bpr
+Count=2
 EditWindowCount=1
 
-[J:\Work\Prog\2017\HelloGit\Unit1.cpp]
+[J:\Work\Prog\GitProjects\HelloGit\Unit1.cpp]
 ModuleType=SourceModule
 FormState=1
-FormOnTop=0
+FormOnTop=1
 
-[C:\Program Files\Borland\CBuilder6\Projects\ProjectGroup1.bpg]
+[J:\Work\Prog\GitProjects\HelloGit\HelloWinProject.bpr]
+ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
-[J:\Work\Prog\2017\HelloGit\HelloWinProject.bpr]
+[J:\Work\Prog\GitProjects\HelloGit\ProjectGroup1.bpg]
 FormState=0
 FormOnTop=0
 
 [EditWindow0]
-ViewCount=1
-CurrentView=0
+ViewCount=2
+CurrentView=1
 View0=0
+View1=1
 CodeExplorer=CodeExplorer@EditWindow0
 MessageView=MessageView@EditWindow0
 ClassHierarchy=ClassHierarchy@EditWindow0
 Create=1
 Visible=1
 State=0
-Left=248
-Top=235
+Left=222
+Top=363
 Width=982
 Height=658
 MaxLeft=-1
@@ -48,17 +51,24 @@ ClientWidth=974
 ClientHeight=631
 LeftPanelSize=0
 LeftPanelClients=CodeExplorer@EditWindow0
-LeftPanelData=00000400010000000C000000436F64654578706C6F72657200000000000000000000000000000000000100000000000000000C000000436F64654578706C6F726572FFFFFFFF
+LeftPanelData=00000400010000000C000000436F64654578706C6F726572000000000000000000000000000000000001000000000000000000000000FFFFFFFF
 RightPanelSize=0
 BottomPanelSize=0
 BottomPanelClients=MessageView@EditWindow0
-BottomPanelData=00000400010000000B0000004D6573736167655669657700000000000000000000000000000000000100000000000000000B0000004D65737361676556696577FFFFFFFF
+BottomPanelData=00000400010000000B0000004D65737361676556696577000000000000000000000000000000000001000000000000000000000000FFFFFFFF
 
 [View0]
-Module=J:\Work\Prog\2017\HelloGit\Unit1.cpp
-CursorX=10
-CursorY=20
-TopLine=17
+Module=J:\Work\Prog\GitProjects\HelloGit\HelloWinProject.cpp
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View1]
+Module=J:\Work\Prog\GitProjects\HelloGit\Unit1.cpp
+CursorX=53
+CursorY=23
+TopLine=1
 LeftCol=1
 
 [Watches]
@@ -118,18 +128,18 @@ Visible=1
 State=0
 Left=0
 Top=471
-Width=197
+Width=223
 Height=445
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=189
+ClientWidth=215
 ClientHeight=421
 TBDockHeight=541
 LRDockWidth=190
 Dockable=1
 SplitPos=85
 ArrangeBy=Name
-SelectedItem=Caption
+SelectedItem=Font
 ExpandedItems=
 HiddenCategories=
 

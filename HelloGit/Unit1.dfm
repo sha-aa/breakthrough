@@ -1,23 +1,23 @@
 object Form1: TForm1
-  Left = 291
-  Top = 329
+  Left = 315
+  Top = 297
   Width = 481
-  Height = 365
+  Height = 279
   Caption = 'Form1'
   Color = clBtnFace
-  Font.Charset = DEFAULT_CHARSET
+  Font.Charset = RUSSIAN_CHARSET
   Font.Color = clWindowText
-  Font.Height = -11
-  Font.Name = 'MS Sans Serif'
-  Font.Style = []
+  Font.Height = -16
+  Font.Name = 'Arial'
+  Font.Style = [fsBold]
   OldCreateOrder = False
   PixelsPerInch = 96
-  TextHeight = 13
+  TextHeight = 19
   object Label1: TLabel
     Left = 104
     Top = 48
     Width = 241
-    Height = 161
+    Height = 73
     Alignment = taCenter
     AutoSize = False
     Caption = 'Hello, Git!'
@@ -29,10 +29,10 @@ object Form1: TForm1
     ParentFont = False
   end
   object Button1: TButton
-    Left = 200
-    Top = 264
-    Width = 75
-    Height = 25
+    Left = 176
+    Top = 152
+    Width = 105
+    Height = 41
     Caption = 'Ok'
     TabOrder = 0
     OnClick = Button1Click
