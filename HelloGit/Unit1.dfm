@@ -1,9 +1,9 @@
 object Form1: TForm1
   Left = 315
   Top = 297
-  Width = 481
-  Height = 279
   Caption = 'Form1'
+  ClientHeight = 252
+  ClientWidth = 473
   Color = clBtnFace
   Font.Charset = RUSSIAN_CHARSET
   Font.Color = clWindowText
@@ -20,7 +20,7 @@ object Form1: TForm1
     Height = 49
     Alignment = taCenter
     AutoSize = False
-    Caption = 'Hello, Git!'
+    Caption = 'Hello, Git! Ok?'
     Font.Charset = RUSSIAN_CHARSET
     Font.Color = clWindowText
     Font.Height = -32
@@ -30,10 +30,11 @@ object Form1: TForm1
   end
   object Button1: TButton
     Left = 104
-    Top = 112
+    Top = 144
     Width = 249
     Height = 49
     Caption = 'Ok'
+    ModalResult = 8
     TabOrder = 0
     OnClick = Button1Click
   end
