@@ -17,7 +17,7 @@ object Form1: TForm1
     Left = 104
     Top = 48
     Width = 241
-    Height = 73
+    Height = 49
     Alignment = taCenter
     AutoSize = False
     Caption = 'Hello, Git!'
@@ -29,10 +29,10 @@ object Form1: TForm1
     ParentFont = False
   end
   object Button1: TButton
-    Left = 176
-    Top = 152
-    Width = 105
-    Height = 41
+    Left = 104
+    Top = 112
+    Width = 249
+    Height = 49
     Caption = 'Ok'
     TabOrder = 0
     OnClick = Button1Click
