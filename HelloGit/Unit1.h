@@ -17,7 +17,7 @@ __published:	// IDE-managed Components
 private:	// User declarations
 public:		// User declarations
         int _id;
-        char _name[25];
+        char _name[55];
         __fastcall TForm1(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
